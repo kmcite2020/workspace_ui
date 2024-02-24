@@ -1,0 +1,8 @@
+name: workspace_ui
+
+packages:
+  - apps/**
+  - packages/**
+scripts:
+  analyze:
+    exec: dart analyze .
